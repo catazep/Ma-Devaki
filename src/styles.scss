@@ -98,24 +98,25 @@ h6 {
 // }
 
 .hero {
-  min-height: 100vh;
   position: relative;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   color: white;
   background-color: var(--dark-brown);
   text-align: center;
   padding: 11rem 0;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background-image: url("assets/img/bucharest.png");
+  background-image: url("assets/img/yogiram_pic_small.png");
   background-size: cover;
-  // background-position: center;
-  // opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
 }
 
 .hero h1 {
@@ -454,6 +455,25 @@ button {
   margin-top: 1rem;
 }
 
+@media (max-width: 640px) {
+  .hero {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 640px) {
+  .hero {
+    aspect-ratio: 21/9;
+  }
+  
+  .hero-overlay {
+    background-image: url("assets/img/yogiram_pic_wide.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 @media (min-width: 1024px) {
   .about-content {
     grid-template-columns: 1fr 1fr;
@@ -462,20 +482,27 @@ button {
   .carousel-slide {
     flex: 0 0 33.333%;
   }
-}
 
-@media (min-width: 1240px) {
+  .hero {
+    aspect-ratio: 21/9;
+  }
+  
   .hero-overlay {
     background-size: cover;
+    background-position: center;
   }
 }
 
-// @media (min-width: 640px) {
-//   .hero-overlay {
-//     background-size: cover;
-//     background-position: center;
-//   }
-// }
+@media (min-width: 1440px) {
+  .hero {
+    aspect-ratio: 21/9;
+  }
+  
+  .hero-overlay {
+    background-size: cover;
+    background-position: center;
+  }
+}
 
 @media (max-width: 520px) {
   .hero {
