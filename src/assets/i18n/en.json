@@ -9,7 +9,7 @@
   },
   "TITLE": {
     "LINE_1": "Yogi Ramsuratkumar",
-    "LINE_2": "Jaya Guru Raya ",
+    "LINE_2": "Jaya Guru Raya",
     "LINE_3": "",
     "LINE_4": "",
     "TIME": "Bucharest, 29-31 July 2025",
@@ -17,74 +17,93 @@
     "REGISTER_NOW": "Register here"
   },
   "SCHEDULE": {
-    "TITLE": "INTENSIVE SATSANG PROGRAMME",
+    "TITLE": "SATSANG PROGRAM",
+    "DESCRIPTION": {
+      "LINE_1": "Each evening of the event will include three main moments: Nama Chanting, a short discourse, and a Q&A session.",
+      "LINE_2": "Under Ma Devaki's guidance, we will practice together the repetition of the mantra 'Yogi Ramsuratkumar Jaya Guru Raya', a simple and profound form of prayer through which the mind becomes calm and the heart opens. Chanting does not require musical performance, but only sincere participation, an invitation to presence and inner connection with God."
+    },
     "FRIDAY": {
-      "TITLE": "Friday, June 13",
+      "TITLE": "Wednesday, July 30",
       "LINE_1": "17:30 Welcome",
-      "LINE_2": "18:00 Satsang",
       "LINE_3": "20:00 End of Satsang"
     },
     "SATURDAY": {
-      "TITLE": "Saturday, June 14",
-      "LINE_1": "10:00 Welcome",
-      "LINE_2": "10:30 Satsang",
-      "LINE_3": "12:30 Lunch Break",
-      "LINE_4": "15:00 Satsang",
-      "LINE_5": "17:00 End of Satsang"
-    },
-    "SUNDAY": {
-      "TITLE": "Sunday, June 15",
-      "LINE_1": "10:00 Welcome",
-      "LINE_2": "10:30 Satsang",
-      "LINE_3": "12:30 Lunch Break",
-      "LINE_4": "15:00 Satsang",
-      "LINE_5": "17:00 End of Satsang"
+      "TITLE": "Thursday, July 31",
+      "LINE_1": "17:30 Welcome",
+      "LINE_5": "20:00 End of Satsang"
     }
   },
   "PRESENTATION": {
     "TITLE": "Presentation",
     "CONTENT": {
-      "P1": "Swami Atmananda offers us the opportunity to deepen the theme of Spiritual Awakening and Self-Realization, based on the tradition of Advaita Vedanta.",
-      "P2": "Awakening is Pure Presence. It is neither an experience nor a state, but simply the spontaneous and immediate Recognition of our true Nature, the Self.",
-      "P3": "There is no 'awakened person,' only the pure presence of the Self..."
+      "P1": "Mataji is here with us to share her experiences with the Great Yogi Yogi Ramsuratkumar.",
+      "P2": "Her visit to Romania is part of an international tour that, over the past two years, has included meetings in the United States, Dubai, and this year in several European countries.",
+      "P3": "She brings to life His teachings, which are very relevant to modern life and emphasizes the greatness of chanting His Name in a way that touches and transforms lives."
     },
     "TRANSLATION": {
       "TITLE": "Simultaneous Translation",
-      "DESCRIPTION": "All 3 days of the Intensive Satsang will be conducted in English, with simultaneous translation into Romanian. Additional information on this topic will be provided via email after registering for the event."
+      "DESCRIPTION": "The 2 evenings of Satsang will be conducted in English, with simultaneous translation into Romanian. Additional information on this topic will be provided via email after registering for the event."
     }
   },
   "QUOTE": {
-    "TEXT": "You are the Truth, the Self, the timeless Consciousness",
-    "AUTHOR": "- Swami Atmananda Udasin -"
+    "TEXT": " Remembering God is Life Forgetting God is death",
+    "AUTHOR": "- Bhagwan Yogi Ramsuratkumar -"
   },
   "ABOUT": {
-    "TITLE": "About Swami Atmananda",
-
-    "CONTENT": {
-      "P1": "Swami Atmananda Udasin is the Headmonk under whose guidance the Ajatananda Ashram community in Rishikesh, India operates – an interreligious monastic ashram dedicated to the Unity of Truth, designed to support spiritual seekers from all religious traditions.",
-      "P2": "Swami Atmananda is part of the Advaita Vedanta tradition and teaches the Direct Path of Non-Duality, regularly offering satsangs and retreats both in India and abroad.",
-      "P3": "Before embracing monastic life, Swami Atmananda worked as a university lecturer. Later, he spent a decade in solitude, first in a hermitage near Jerusalem and then in northern India, dedicating himself to deep spiritual practice. Towards the end of this period of retreat, he embraced Sanatana Dharma and, in 2001, received initiation into sannyasa (monastic renunciation) from his beloved spiritual Master, H.H. Sri Chandra Swami Udasin. His teachings continue to inspire seekers from around the world, guiding them towards Self-realization and inner peace."
+    "MADEVAKI": {
+      "TITLE": "About Ma Devaki",
+      "CONTENT": {
+        "P1": "Ma Devaki was a Quantum Physics professor for 20 years at Sarada College in Salem, where she was appreciated for her involvement in education, and for over 20 years, she has been transmitting His teachings through satsang sessions, deep reflections, and mantra recitations, inspiring thousands of people worldwide.",
+        "P2": "Ma Devaki Mataji is a founding member of Yogi Ramsuratkumar Ashram and Ma Devaki Veda Patashala School, Tiruvannamalai. Alongside her academic activity, Ma Devaki was deeply drawn to the spiritual path, and her quest led her to Tiruvannamalai, where she met Yogi Ramsuratkumar, a moment that deeply marked her life.",
+        "P3": "Her mission is to spread the Master's spiritual teachings and guide seekers on the spiritual path through Nama and Guru Seva. Today, Ma Devaki is a source of inspiration for many, being a living example of pure love and devotion in the service of spirituality."
+      }
+    },
+    "YOGIRAM": {
+      "TITLE": "About Yogi Ramsuratkumar",
+      "CONTENT": {
+        "P1": "Blessed are those who meet a Gnani during their lifetime. Even more blessed are those who recognize him for what he is and benefit from his divine association. Such a Brahma Gnani is Yogi Ramsuratkumar, in whom thousands of people have found solace, support, and peace in life.",
+        "P2": "Born on December 1, 1918, Yogi Ramsuratkumar was a hidden saint who lived as a beggar on the streets of Tiruvannamalai, Tamil Nadu. In his quest for a Guru and Truth, he traveled through South India, where he met his three Gurus: Sri Aurobindo, Ramana Maharishi, and Papa Ramdas. The living spiritual Master - Papa Ramdas initiated him into the mantra 'Om Sri Ram Jai Ram Jai Jai Ram' and told him: 'Go and repeat day and night, all twenty-four hours.' Within seven days and seven nights, Ramsuratkumar made the great exodus from the Kingdom of man to the Kingdom of God. Ramsuratkumar became YOGI RAMSURATKUMAR, a savior of ignorant souls with a mission greater than his own liberation. Today, His Name, YOGI RAMSURATKUMAR, offers help, guidance, and protection to all who chant it and is a sanctuary of peace, love, and joy.",
+        "P3": "Ma Devaki, whom Sri Yogiji called His eternal servant, personally served Him for seven years until His Mahasamadhi in 2001. Mataji has continued her service at His Ashram in Tiruvannamalai for the past twenty-three years."
+      }
+    },
+    "ASHRAM": {
+      "TITLE": "Yogi Ramsuratkumar Ashram",
+      "CONTENT": {
+        "P1": "Yogi Ramsuratkumar Ashram in Tiruvannamalai, India, is a spiritual center dedicated to the teachings and mission of Yogi Ramsuratkumar, known as the 'Child of God'. The Ashram offers free various activities aimed at supporting the spiritual, educational, and social growth of the community.",
+        "P2": "Yogi Ramsuratkumar Ashram is a living example of how spirituality can be integrated into daily life, offering support and light to those seeking inner peace and spiritual growth.",
+        "SCHEDULE": {
+          "T1": "🌄 Daily Life in the Ashram",
+          "C1": "The day begins early at 5:30 AM with the opening of the altar and the Arati ritual. Between 6:00-7:00 AM and 6:15-7:15 PM, Ma Devaki leads sessions of chanting the mantra 'Yogi Ramsuratkumar Jaya Guru Raya', which continues throughout the day. The daily schedule includes meditation, prayers, satsangs, and karma yoga activities, encouraging a life lived in devotion and selfless service.",
+          "T2": "📚 Spiritual and Traditional Education",
+          "C2": "The Ashram hosts Ma Devaki Veda Patasala, an institution founded in 1999 to promote the study of Vedas, Agamas, Puranas, and other sacred scriptures. This school offers free traditional education in Sanskrit and Indian philosophy, aiming to preserve and revitalize Vedic culture. Additionally, Yogi Ramsuratkumar Vidyalaya, a primary school established in 2002, provides free education to children from the community, combining modern education with Vedic studies and extracurricular activities.",
+          "T3": "🤝 Social and Community Activities",
+          "C3": "The Ashram organizes monthly free medical camps, starting from 1999, serving hundreds of people in Tiruvannamalai. It also offers Annadhanam – free meals – daily at lunch and during festivals. During crisis periods, such as the COVID-19 pandemic, the ashram distributed food and essential supplies to those affected.",
+          "T4": "🐄 Goshala – Cow Shelter",
+          "C4": "The Ashram maintains a shelter for approximately 50 cows, considered sacred in Hindu tradition. The dairy products are distributed to school children and local orphanages, reflecting deep respect for life and nature.",
+          "T5": "🌟 Community Spirit",
+          "C5": "The community around the ashram is deeply involved in its activities, participating in rituals, volunteering, and supporting educational and social initiatives. The devotion and unity of this community reflect Yogi Ramsuratkumar's teachings about love, humility, and selfless service."
+        }
+      }
     }
   },
   "REGISTER": {
-    "TITLE": "Contribution for the Event",
-    "DESCRIPTION": "This event is offered free of charge, and your contribution is intended exclusively to support the organization and cover logistical costs. It is not a fee for participation or for the teachings received, but a way to support the event.",
-    "AMOUNT": "Contribution 60€",
+    "TITLE": "Free Event",
+    "DESCRIPTION": "The event is free and open to all those interested in spirituality, intercultural dialogue, and cultivating spiritual values. There is no fee for participation or for the teachings received, as spiritual teaching is priceless.",
     "FORM": {
       "TITLE": "Register for the Event",
       "BUTTON_OPEN": "Register",
-      "BUTTON_CLOSE": "Close registration form",
-      "INVITATION": "Join us for a special meeting with Swami Atmananda"
+      "BUTTON_CLOSE": "Close form",
+      "INVITATION": "Please register as event participation is only possible with prior registration."
     },
     "SUPPORT": {
       "TITLE": "Teachings",
       "DESCRIPTION": "All programs organized by the Ashram in India and Europe are offered free of charge. Ajatananda Ashram is a non-profit organization and depends entirely on donations to cover daily expenses. If you feel inspired to support the Ashram and contribute to the promotion of its activities in the field of non-dual teachings and interreligious dialogue, you are welcome to do so through the Donation Box during the retreat or online.",
-      "VISIT_ASHRAM": "Visit Ajatananda Ashram",
+      "VISIT_ASHRAM": "Visit Yogi Ramsuratkumar Ashram website",
       "LOVE": "We look forward to welcoming you to the event!"
     }
   },
   "LOCATION": {
-    "INFO": "Palatul Universul, Building A, Ion Brezoianu Street 23–25, Floor 5, Bucharest (near Cișmigiu Park)"
+    "INFO": "Palatul Universul, Building A, Ion Brezoianu Street 23-25, Floor 5, Bucharest (near Cișmigiu Park)"
   },
   "FOOTER": {
     "ORGANIZER_1": "Organized by the Center for Therapies, Meditation, and Yoga",
