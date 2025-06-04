@@ -84,7 +84,6 @@ h6 {
   display: none;
 }
 
-
 .hero {
   position: relative;
   display: flex;
@@ -269,7 +268,15 @@ h6 {
 
 /* About Section */
 .about {
-  background-color: var(--secondary);
+  &.background {
+    background-color: var(--secondary);
+  }
+
+  &:not(.background) {
+    .card {
+      background-color: var(--secondary);
+    }
+  }
   padding: 1.8rem 0;
 }
 
@@ -342,15 +349,20 @@ h6 {
   justify-content: center;
   align-items: center;
   font-size: 24px;
-}
 
-.swami-website span {
-  text-align: center;
-  display: inline-block;
-  // font-family: "Cormorant Garamond", serif;
-  font-family: "Libre Baskerville", serif;
-}
+  margin-top: 48px;
 
+  span {
+    text-align: center;
+    display: inline-block;
+    // font-family: "Cormorant Garamond", serif;
+    font-family: "Libre Baskerville", serif;
+  }
+
+  a {
+    padding: 0 24px;
+  }
+}
 .website-link {
   color: var(--primary);
   margin-bottom: 1rem;
@@ -454,7 +466,7 @@ button {
   .hero {
     aspect-ratio: 21/9;
   }
-  
+
   .hero-overlay {
     background-image: url("assets/img/yogiram_pic_wide.png");
     background-size: cover;
@@ -475,7 +487,7 @@ button {
   .hero {
     aspect-ratio: 21/9;
   }
-  
+
   .hero-overlay {
     background-size: cover;
     background-position: center;
@@ -486,7 +498,7 @@ button {
   .hero {
     aspect-ratio: 21/9;
   }
-  
+
   .hero-overlay {
     background-size: cover;
     background-position: center;

@@ -24,7 +24,7 @@
       }}</a>
     </div>
 
-    <!-- <div class="flags-container">
+    <div class="flags-container">
       @for(language of languages; track language){
       <span
         class="fi fi-{{ language === 'en' ? 'gb' : language }} flag"
@@ -32,7 +32,7 @@
         (click)="changeLanguage(language)"
       ></span>
       }
-    </div> -->
+    </div>
   </div>
 </nav>
 
@@ -80,64 +80,66 @@
     <p>
       {{ "PRESENTATION.CONTENT.P3" | transloco }}
     </p>
-
-    <h2>{{ "PRESENTATION.TRANSLATION.TITLE" | transloco }}</h2>
-    <p>
-      {{ "PRESENTATION.TRANSLATION.DESCRIPTION" | transloco }}
-    </p>
   </div>
 </section>
 
-<section id="about" class="about">
+<section id="about" class="about background">
   <div class="container">
-    <h2>{{ "ABOUT.TITLE" | transloco }}</h2>
+    <h2>{{ "ABOUT.MADEVAKI.TITLE" | transloco }}</h2>
     <div class="about-content">
       <div>
         <img
           src="assets/img/ma-devaki.png"
-          alt="Swami Atmananda"
+          alt="Ma devaki"
           class="about-image"
         />
-        @if(windowWidth >= 1024){
-        <div class="swami-website">
-          <br />
-          <br />
-          <span>{{ "REGISTER.SUPPORT.VISIT_ASHRAM" | transloco }}</span>
-          <a
-            href="www.yogiramsuratkumarashram.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="website-link"
-          >
-          www.yogiramsuratkumarashram.org
-          </a>
-        </div>
-        }
       </div>
       <div class="card">
         <p>
-          {{ "ABOUT.CONTENT.P1" | transloco }}
+          {{ "ABOUT.MADEVAKI.CONTENT.P1" | transloco }}
         </p>
         <p>
-          {{ "ABOUT.CONTENT.P2" | transloco }}
+          {{ "ABOUT.MADEVAKI.CONTENT.P2" | transloco }}
         </p>
         <p>
-          {{ "ABOUT.CONTENT.P3" | transloco }}
+          {{ "ABOUT.MADEVAKI.CONTENT.P3" | transloco }}
         </p>
       </div>
-      @if(windowWidth < 1024){
-      <div class="swami-website">
-        <span>{{ "REGISTER.SUPPORT.VISIT_ASHRAM" | transloco }}</span>
-        <a
-          href="www.yogiramsuratkumarashram.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="website-link"
-        >
-        www.yogiramsuratkumarashram.org
-        </a>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <h2>{{ "ABOUT.YOGIRAM.TITLE" | transloco }}</h2>
+    <div class="about-content">
+      <div *ngIf="windowWidth < 1024">
+        <img
+          src="assets/img/yogiram.png"
+          alt="Yogi ramsuratkumar"
+          class="about-image"
+        />
       </div>
-      }
+
+      <div class="card">
+        <p>
+          {{ "ABOUT.YOGIRAM.CONTENT.P1" | transloco }}
+        </p>
+        <p>
+          {{ "ABOUT.YOGIRAM.CONTENT.P2" | transloco }}
+        </p>
+        <p>
+          {{ "ABOUT.YOGIRAM.CONTENT.P3" | transloco }}
+        </p>
+      </div>
+
+      <div *ngIf="windowWidth >= 1024">
+        <img
+          src="assets/img/yogiram.png"
+          alt="Yogi ramsuratkumar"
+          class="about-image"
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -216,15 +218,74 @@
   </div>
 </section>
 
+<section class="about">
+  <div class="container">
+    <h2>{{ "ABOUT.ASHRAM.TITLE" | transloco }}</h2>
+
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.P1" | transloco }}
+    </p>
+    <br />
+    <h3>{{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.T1" | transloco }}</h3>
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C1" | transloco }}
+    </p>
+    <br />
+    <h3>{{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.T2" | transloco }}</h3>
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C2" | transloco }}
+    </p>
+    <br />
+    <h3>{{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.T3" | transloco }}</h3>
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C3" | transloco }}
+    </p>
+    <br />
+    <h3>{{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.T4" | transloco }}</h3>
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C4" | transloco }}
+    </p>
+    <br />
+    <h3>{{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.T5" | transloco }}</h3>
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C5" | transloco }}
+    </p>
+    <br />
+    <p>
+      {{ "ABOUT.ASHRAM.CONTENT.P1" | transloco }}
+    </p>
+  </div>
+
+  <div class="swami-website">
+    <span>{{ "REGISTER.SUPPORT.VISIT_ASHRAM" | transloco }}</span>
+    <a
+      href="https://www.yogiramsuratkumarashram.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="website-link"
+    >
+      www.yogiramsuratkumarashram.org
+    </a>
+  </div>
+</section>
+
+
 <section id="program" class="program">
   <div class="container">
     <h2>{{ "SCHEDULE.TITLE" | transloco }}</h2>
     <div class="program-cards">
       <div class="card">
+        <div class="card-content">
+          {{ "SCHEDULE.DESCRIPTION.LINE_1" | transloco }}
+          <br />
+          {{ "SCHEDULE.DESCRIPTION.LINE_2" | transloco }}
+        </div>
+      </div>
+      <div class="card">
         <h3>{{ "SCHEDULE.FRIDAY.TITLE" | transloco }}</h3>
         <ul>
           <li>{{ "SCHEDULE.FRIDAY.LINE_1" | transloco }}</li>
-          <li>{{ "SCHEDULE.FRIDAY.LINE_2" | transloco }}</li>
+          <!-- <li>{{ "SCHEDULE.FRIDAY.LINE_2" | transloco }}</li> -->
           <li>{{ "SCHEDULE.FRIDAY.LINE_3" | transloco }}</li>
         </ul>
       </div>
@@ -232,21 +293,25 @@
         <h3>{{ "SCHEDULE.SATURDAY.TITLE" | transloco }}</h3>
         <ul>
           <li>{{ "SCHEDULE.SATURDAY.LINE_1" | transloco }}</li>
-          <li>{{ "SCHEDULE.SATURDAY.LINE_2" | transloco }}</li>
+          <!-- <li>{{ "SCHEDULE.SATURDAY.LINE_2" | transloco }}</li>
           <li>{{ "SCHEDULE.SATURDAY.LINE_3" | transloco }}</li>
-          <li>{{ "SCHEDULE.SATURDAY.LINE_4" | transloco }}</li>
+          <li>{{ "SCHEDULE.SATURDAY.LINE_4" | transloco }}</li> -->
           <li>{{ "SCHEDULE.SATURDAY.LINE_5" | transloco }}</li>
         </ul>
       </div>
       <div class="card">
-        <h3>{{ "SCHEDULE.SUNDAY.TITLE" | transloco }}</h3>
+        <h2>{{ "PRESENTATION.TRANSLATION.TITLE" | transloco }}</h2>
+        <p>
+          {{ "PRESENTATION.TRANSLATION.DESCRIPTION" | transloco }}
+        </p>
+        <!-- <h3>{{ "SCHEDULE.SUNDAY.TITLE" | transloco }}</h3>
         <ul>
           <li>{{ "SCHEDULE.SUNDAY.LINE_1" | transloco }}</li>
           <li>{{ "SCHEDULE.SUNDAY.LINE_2" | transloco }}</li>
           <li>{{ "SCHEDULE.SUNDAY.LINE_3" | transloco }}</li>
           <li>{{ "SCHEDULE.SUNDAY.LINE_4" | transloco }}</li>
           <li>{{ "SCHEDULE.SUNDAY.LINE_5" | transloco }}</li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
@@ -261,9 +326,9 @@
   <p>
     {{ "REGISTER.DESCRIPTION" | transloco }}
   </p>
-  <p>
+  <!-- <p>
     <strong>{{ "REGISTER.AMOUNT" | transloco }}</strong>
-  </p>
+  </p> -->
   <div class="form-container">
     <h2>{{ "REGISTER.FORM.TITLE" | transloco }}</h2>
     <button

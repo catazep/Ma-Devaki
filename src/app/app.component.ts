@@ -49,6 +49,7 @@ export class AppComponent implements AfterViewInit {
       this.translocoService.getDefaultLang();
     this.languages = this.translocoService.getAvailableLangs();
     this.changeLanguage(this.currentLanguage);
+    this.windowWidth = window.innerWidth;
   }
 
   @HostListener('window:resize')
@@ -64,6 +65,7 @@ export class AppComponent implements AfterViewInit {
       this.track.nativeElement.children
     ) as HTMLElement[];
     this.updateSlidePosition();
+    this.setCarouselButtonsState();
   }
 
   public changeLanguage(lang: string | LangDefinition) {

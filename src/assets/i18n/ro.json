@@ -17,28 +17,20 @@
     "REGISTER_NOW": "Înregistrați-vă aici"
   },
   "SCHEDULE": {
-    "TITLE": "PROGRAM SATSANG INTENSIV",
+    "TITLE": "PROGRAM SATSANG",
+    "DESCRIPTION": {
+      "LINE_1": "Fiecare seara a evenimentul va cuprinde trei momente principale: Nama Chanting, un scurt discurs și o sesiune de întrebări și răspunsuri.",
+      "LINE_2": "Vom practica împreună, sub ghidarea lui Ma Devaki, repetarea mantrei „Yogi Ramsuratkumar Jaya Guru Raya”, o formă simplă și profundă de rugăciune prin care mintea se liniștește și inima se deschide. Chantingul nu presupune performanță muzicală, ci doar participare sinceră, o invitație la prezență și conexiune interioară cu Dumnezeu."
+    },
     "FRIDAY": {
-      "TITLE": "Vineri 13 Iunie",
+      "TITLE": "Miercuri 30 Iulie",
       "LINE_1": "17:30 Primire",
-      "LINE_2": "18:00 Satsang",
       "LINE_3": "20:00 Sfârșitul Satsangului"
     },
     "SATURDAY": {
-      "TITLE": "Sâmbătă 14 Iunie",
-      "LINE_1": "10:00 Primire",
-      "LINE_2": "10:30 Satsang",
-      "LINE_3": "12:30 Pauză de prânz",
-      "LINE_4": "15:00 Satsang",
-      "LINE_5": "17:00 Sfârșitul Satsangului"
-    },
-    "SUNDAY": {
-      "TITLE": "Duminică 15 Iunie",
-      "LINE_1": "10:00 Primire",
-      "LINE_2": "10:30 Satsang",
-      "LINE_3": "12:30 Pauză de prânz",
-      "LINE_4": "15:00 Satsang",
-      "LINE_5": "17:00 Sfârșitul Satsangului"
+      "TITLE": "Joi 31 Iulie",
+      "LINE_1": "17:30 Primire",
+      "LINE_5": "20:00 Sfârșitul Satsangului"
     }
   },
   "PRESENTATION": {
@@ -50,30 +42,58 @@
     },
     "TRANSLATION": {
       "TITLE": "Traducere simultană",
-      "DESCRIPTION": "Toate cele 3 zile ale Satsangului Intensiv vor fi susținute în limba engleză, cu traducere simultană în limba română. Informații suplimentare pe această temă vă vor fi furnizate prin e-mail după înregistrarea la eveniment."
+      "DESCRIPTION": "Cele 2 seri de Satsang vor fi susținute în limba engleză, cu traducere simultană în limba română. Informații suplimentare pe această temă vă vor fi furnizate prin e-mail după înregistrarea la eveniment."
     }
   },
   "QUOTE": {
-    "TEXT": "Tu ești Adevărul, Sinele, Conștiința atemporală",
-    "AUTHOR": "- Swami Atmananda Udasin -"
+    "TEXT": "Amintinduți-L pe Dumnezeu înseamnă viață, uitându-L înseamnă moarte",
+    "AUTHOR": "- Bhagwan Yogi Ramsuratkumar -"
   },
   "ABOUT": {
-    "TITLE": "Despre Ma Devaki",
-    "CONTENT": {
-      "P1": "Ma Devaki a fost profesoară de Fizică Cuantică timp de 20 de ani la Colegiul Sarada din Salem, unde a fost apreciată pentru implicarea sa în educație, iar de peste 20 de ani, transmite învățăturile sale prin sesiuni de satsang, reflecții profunde și recitări de mantre, inspirând mii de oameni din întreaga lume.",
-      "P2": "Ma Devaki Mataji este un membru fondator al Yogi Ramsuratkumar Ashram și al Ma Devaki Veda Patashala School, Tiruvannamalai. În paralel cu activitatea academică, Ma Devaki a fost profund atrasă de calea spirituală, iar căutările sale au dus-o la Tiruvannamalai, unde la întâlnit pe Yogi Ramsuratkumar, moment ce i-a marcat profund viața.",
-      "P3": "Misiunea sa este de a răspândi învățăturile spirituale ale Maestrului și de a ghida căutătorii în calea spirituală, prin Nama și Guru Seva. Astăzi, Ma Devaki este o sursă de inspirație pentru mulți, fiind o exemplificare vie a iubirii pure și a devotamentului în slujba spiritualității."
+    "MADEVAKI": {
+      "TITLE": "Despre Ma Devaki",
+      "CONTENT": {
+        "P1": "Ma Devaki a fost profesoară de Fizică Cuantică timp de 20 de ani la Colegiul Sarada din Salem, unde a fost apreciată pentru implicarea sa în educație, iar de peste 20 de ani, transmite învățăturile sale prin sesiuni de satsang, reflecții profunde și recitări de mantre, inspirând mii de oameni din întreaga lume.",
+        "P2": "Ma Devaki Mataji este un membru fondator al Yogi Ramsuratkumar Ashram și al Ma Devaki Veda Patashala School, Tiruvannamalai. În paralel cu activitatea academică, Ma Devaki a fost profund atrasă de calea spirituală, iar căutările sale au dus-o la Tiruvannamalai, unde la întâlnit pe Yogi Ramsuratkumar, moment ce i-a marcat profund viața.",
+        "P3": "Misiunea sa este de a răspândi învățăturile spirituale ale Maestrului și de a ghida căutătorii în calea spirituală, prin Nama și Guru Seva. Astăzi, Ma Devaki este o sursă de inspirație pentru mulți, fiind o exemplificare vie a iubirii pure și a devotamentului în slujba spiritualității."
+      }
+    },
+    "YOGIRAM": {
+      "TITLE": "Despre Yogi Ramsuratkumar",
+      "CONTENT": {
+        "P1": "Norocoși sunt cei care întâlnesc un Gnani chiar în timpul vieții lor. Și mai norocoși sunt cei care îl recunosc pentru ceea ce el este și beneficiază de asocierea sa divină. Un astfel de Brahma Gnani este Yogi Ramsuratkumar, în care mii de oameni au găsit alinare, sprijin și pacea în viață. ",
+        "P2": "Născut pe 1 decembrie 1918, Yogi Ramsuratkumar a fost un sfânt  ascuns, care a trăit ca cerșetor pe străzile din Tiruvannamalai, Tamil Nadu. În căutarea sa pentru un Guru și pentru Adevăr, el a călătorit în India de Sud, unde i-a întâlnit pe cei trei Guru ai săi: Sri Aurobindo, Ramana Maharishi și Papa Ramdas. Maestrul spiritual aflat în viață - Papa Ramdas l-a inițiat în mantra „Om Sri Ram Jai Ram Jai Jai Jai Ram” și i-a spus: „Du-te și repetă zi și noapte, toate cele douăzeci și patru de ore.” În decurs de șapte zile și șapte nopți, Ramsuratkumar a făcut marele exod din Împărăția omului în Împărăția lui Dumnezeu. Ramsuratkumar a devenit YOGI RAMSURATKUMAR, un salvator al sufletelor ignorante cu o misiune mai mare decât propria sa eliberare. Astăzi, Numele Său, YOGI RAMSURATKUMAR, oferă ajutor, îndrumare și protecție tuturor celor care îl cântă și este un sanctuar al păcii, iubirii și bucuriei.  ",
+        "P3": "Ma Devaki, pe care Sri Yogiji a numit-o slujitoarea Sa eternă, L-a slujit personal timp de șapte ani până la Mahasamadhi-ul Său în 2001. Mataji și-a continuat slujirea la Ashramul Său din Tiruvannamalai în ultimii douăzeci și trei de ani."
+      }
+    },
+    "ASHRAM": {
+      "TITLE": "Yogi Ramsuratkumar Ashram",
+      "CONTENT": {
+        "P1": "Yogi Ramsuratkumar Ashram din Tiruvannamalai, India, este un centru spiritual dedicat învățăturilor și misiunii lui Yogi Ramsuratkumar, cunoscut ca „Copilul lui Dumnezeu”.  Ashramul oferă gratuit o varietate de activități menite să susțină creșterea spirituală, educațională și socială a comunității.",
+        "P2": "Yogi Ramsuratkumar Ashram este un exemplu viu de cum spiritualitatea poate fi integrată în viața de zi cu zi, oferind sprijin și lumină celor care caută pace interioară și creștere spirituală. ",
+        "SCHEDULE":{
+          "T1":"🌄 Viața zilnică în Ashram ",
+          "C1":"Ziua începe devreme, la ora 5:30, cu deschiderea altarului și ritualul de Arati.  Între orele 6:00 și 7:00 dimineața și 6:15 – 7:15 seara, Ma Devaki conduce sesiuni de cântare a mantrei „Yogi Ramsuratkumar Jaya Guru Raya”, care continuă pe tot parcursul zilei.  Programul zilnic include meditație, rugăciuni, satsanguri și activități de karma yoga, încurajând o viață trăită în devoțiune și serviciu altruist.",
+          "T2":"📚 Educație spirituală și tradițională ",
+          "C2":"Ashramul găzduiește Ma Devaki Veda Patasala, o instituție fondată în 1999 pentru a promova studiul Vedas, Agamas, Puranas și alte scripturi sacre.  Această școală oferă gratuit educație tradițională în sanscrită și filozofie indiană, având ca scop păstrarea și revigorarea culturii vedice. De asemenea, Yogi Ramsuratkumar Vidyalaya, o școală primară înființată în 2002, oferă educație gratuită copiilor din comunitate, combinând învățământul modern cu studiul Vedas și activități extracurriculare  . ",
+          "T3":"🤝 Activități sociale și comunitare ",
+          "C3":"Ashramul organizează lunar campanii medicale gratuite, începând din 1999, deservind sute de persoane din Tiruvannamalai.  De asemenea, oferă Annadhanam – mese gratuite – zilnic la prânz și în timpul festivalurilor.  În perioade de criză, cum ar fi pandemia COVID-19, ashramul a distribuit alimente și provizii esențiale celor afectați.",
+          "T4":"🐄 Goshala – Adăpostul pentru vaci ",
+          "C4":"Ashramul întreține un adăpost pentru aproximativ 50 de vaci, considerate sacre în tradiția hindusă.  Lactatele produse sunt distribuite copiilor din școală și orfelinatelor locale, reflectând respectul profund pentru viață și natură.",
+          "T5":"🌟 Spiritul comunității",
+          "C5":"Comunitatea din jurul ashramului este profund implicată în activitățile acestuia, participând la ritualuri, voluntariat și susținând inițiativele educaționale și sociale.  Devotamentul și unitatea acestei comunități reflectă învățăturile lui Yogi Ramsuratkumar despre iubire, umilință și serviciu dezinteresat."
+        }
+      }
     }
   },
   "REGISTER": {
-    "TITLE": "Contribuție pentru realizarea evenimentului",
-    "DESCRIPTION": "Acest eveniment este oferit în mod gratuit, iar contribuția ta este destinată exclusiv susținerii organizării și acoperirii costurilor logistice. Nu este o taxă pentru participare sau pentru învățătura primită, ci un mod de a sprijini desfășurarea acestui eveniment.",
-    "AMOUNT": "Contribuție 300 Ron",
+    "TITLE": "Eveniment cu participare gratuită",
+    "DESCRIPTION": "Evenimentul este cu participare gratuită, fiind deschis tuturor celor interesați de spiritualitate, dialog intercultural și cultivarea valorilor spirituale. Nu există o taxă pentru participare sau pentru învățătura primită, întrucât învățătura spirituală este fără de preț.",
     "FORM": {
       "TITLE": "Înregistrează-te pentru eveniment",
       "BUTTON_OPEN": "Înregistrare",
-      "BUTTON_CLOSE": "Înnchide formularul",
-      "INVITATION": "Alătură-te pentru întâlnirea specială cu Swami Atmananda"
+      "BUTTON_CLOSE": "Închide formularul",
+      "INVITATION": "Vă rugăm să vă înregistrați întrucât participarea la eveniment se face doar în baza înregistrării."
     },
     "SUPPORT": {
       "TITLE": "Învățătură",
