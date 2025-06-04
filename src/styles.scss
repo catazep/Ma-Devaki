@@ -6,9 +6,9 @@ html {
 }
 
 :root {
-  --primary: #cc5500;
-  --secondary: #ffefe4;
-  --dark-brown: #2d1810;
+  --primary: 	#228B22;
+  --secondary: #f0ffe6;
+  --dark-brown: #097969;
 }
 
 * {
@@ -70,14 +70,14 @@ h6 {
 }
 
 .nav-link {
-  color: #cc5500;
+  color: var(--primary);
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 500;
 }
 
 .nav-link:hover {
-  color: #b54a00;
+  color: var(--secondary);
 }
 
 .nav-toggle {
@@ -136,7 +136,7 @@ h6 {
 }
 
 .button:hover {
-  background-color: #b54a00;
+  background-color: var(--primary);
 }
 
 /* Program Section */
