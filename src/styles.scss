@@ -90,7 +90,7 @@ h6 {
   justify-content: center;
   color: white;
   text-align: center;
-  padding: 11rem 0;
+  padding: 3rem 0;
   width: 100%;
   aspect-ratio: 16/9;
 }
@@ -458,7 +458,7 @@ button {
   margin-top: 1rem;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .hero {
     min-height: 80vh;
   }
@@ -508,10 +508,6 @@ button {
 }
 
 @media (max-width: 520px) {
-  .hero {
-    padding: 7rem 0;
-  }
-
   .website-link {
     font-size: 16px;
   }
