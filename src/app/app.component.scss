@@ -134,11 +134,11 @@ footer {
 
 .register-button {
   text-decoration: none;
-  color: white;
-  border: solid 2px white;
+  color: var(--primary);
+  border: solid 2px var(--primary);
   border-radius: 26px;
   padding: 12px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   width: 260px;
 

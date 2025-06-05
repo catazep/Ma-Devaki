@@ -46,7 +46,7 @@
     }
   },
   "QUOTE": {
-    "TEXT": " Remembering God is Life Forgetting God is death",
+    "TEXT": "Remembering God is Life Forgetting God is death",
     "AUTHOR": "- Bhagwan Yogi Ramsuratkumar -"
   },
   "ABOUT": {
@@ -99,7 +99,8 @@
       "TITLE": "Teachings",
       "DESCRIPTION": "All programs organized by the Ashram in India and Europe are offered free of charge. Ajatananda Ashram is a non-profit organization and depends entirely on donations to cover daily expenses. If you feel inspired to support the Ashram and contribute to the promotion of its activities in the field of non-dual teachings and interreligious dialogue, you are welcome to do so through the Donation Box during the retreat or online.",
       "VISIT_ASHRAM": "Visit Yogi Ramsuratkumar Ashram website",
-      "LOVE": "We look forward to welcoming you to the event!"
+      "LOVE": "We look forward to welcoming you to the event!",
+      "VISIT_PHYSICAL_ASHRAM": "Or, in order to visit the Ashram in India, <a target=\"_blank\" href=\"https://api.whatsapp.com/send?phone=40728388894\">contact</a> the organizer team for more information, since they periodically organize excusions for this purpose."
     }
   },
   "LOCATION": {

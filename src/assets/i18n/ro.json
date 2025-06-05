@@ -71,17 +71,17 @@
       "CONTENT": {
         "P1": "Yogi Ramsuratkumar Ashram din Tiruvannamalai, India, este un centru spiritual dedicat învățăturilor și misiunii lui Yogi Ramsuratkumar, cunoscut ca „Copilul lui Dumnezeu”.  Ashramul oferă gratuit o varietate de activități menite să susțină creșterea spirituală, educațională și socială a comunității.",
         "P2": "Yogi Ramsuratkumar Ashram este un exemplu viu de cum spiritualitatea poate fi integrată în viața de zi cu zi, oferind sprijin și lumină celor care caută pace interioară și creștere spirituală. ",
-        "SCHEDULE":{
-          "T1":"🌄 Viața zilnică în Ashram ",
-          "C1":"Ziua începe devreme, la ora 5:30, cu deschiderea altarului și ritualul de Arati.  Între orele 6:00 și 7:00 dimineața și 6:15 – 7:15 seara, Ma Devaki conduce sesiuni de cântare a mantrei „Yogi Ramsuratkumar Jaya Guru Raya”, care continuă pe tot parcursul zilei.  Programul zilnic include meditație, rugăciuni, satsanguri și activități de karma yoga, încurajând o viață trăită în devoțiune și serviciu altruist.",
-          "T2":"📚 Educație spirituală și tradițională ",
-          "C2":"Ashramul găzduiește Ma Devaki Veda Patasala, o instituție fondată în 1999 pentru a promova studiul Vedas, Agamas, Puranas și alte scripturi sacre.  Această școală oferă gratuit educație tradițională în sanscrită și filozofie indiană, având ca scop păstrarea și revigorarea culturii vedice. De asemenea, Yogi Ramsuratkumar Vidyalaya, o școală primară înființată în 2002, oferă educație gratuită copiilor din comunitate, combinând învățământul modern cu studiul Vedas și activități extracurriculare  . ",
-          "T3":"🤝 Activități sociale și comunitare ",
-          "C3":"Ashramul organizează lunar campanii medicale gratuite, începând din 1999, deservind sute de persoane din Tiruvannamalai.  De asemenea, oferă Annadhanam – mese gratuite – zilnic la prânz și în timpul festivalurilor.  În perioade de criză, cum ar fi pandemia COVID-19, ashramul a distribuit alimente și provizii esențiale celor afectați.",
-          "T4":"🐄 Goshala – Adăpostul pentru vaci ",
-          "C4":"Ashramul întreține un adăpost pentru aproximativ 50 de vaci, considerate sacre în tradiția hindusă.  Lactatele produse sunt distribuite copiilor din școală și orfelinatelor locale, reflectând respectul profund pentru viață și natură.",
-          "T5":"🌟 Spiritul comunității",
-          "C5":"Comunitatea din jurul ashramului este profund implicată în activitățile acestuia, participând la ritualuri, voluntariat și susținând inițiativele educaționale și sociale.  Devotamentul și unitatea acestei comunități reflectă învățăturile lui Yogi Ramsuratkumar despre iubire, umilință și serviciu dezinteresat."
+        "SCHEDULE": {
+          "T1": "🌄 Viața zilnică în Ashram ",
+          "C1": "Ziua începe devreme, la ora 5:30, cu deschiderea altarului și ritualul de Arati.  Între orele 6:00 și 7:00 dimineața și 6:15 – 7:15 seara, Ma Devaki conduce sesiuni de cântare a mantrei „Yogi Ramsuratkumar Jaya Guru Raya”, care continuă pe tot parcursul zilei.  Programul zilnic include meditație, rugăciuni, satsanguri și activități de karma yoga, încurajând o viață trăită în devoțiune și serviciu altruist.",
+          "T2": "📚 Educație spirituală și tradițională ",
+          "C2": "Ashramul găzduiește Ma Devaki Veda Patasala, o instituție fondată în 1999 pentru a promova studiul Vedas, Agamas, Puranas și alte scripturi sacre.  Această școală oferă gratuit educație tradițională în sanscrită și filozofie indiană, având ca scop păstrarea și revigorarea culturii vedice. De asemenea, Yogi Ramsuratkumar Vidyalaya, o școală primară înființată în 2002, oferă educație gratuită copiilor din comunitate, combinând învățământul modern cu studiul Vedas și activități extracurriculare  . ",
+          "T3": "🤝 Activități sociale și comunitare ",
+          "C3": "Ashramul organizează lunar campanii medicale gratuite, începând din 1999, deservind sute de persoane din Tiruvannamalai.  De asemenea, oferă Annadhanam – mese gratuite – zilnic la prânz și în timpul festivalurilor.  În perioade de criză, cum ar fi pandemia COVID-19, ashramul a distribuit alimente și provizii esențiale celor afectați.",
+          "T4": "🐄 Goshala – Adăpostul pentru vaci ",
+          "C4": "Ashramul întreține un adăpost pentru aproximativ 50 de vaci, considerate sacre în tradiția hindusă.  Lactatele produse sunt distribuite copiilor din școală și orfelinatelor locale, reflectând respectul profund pentru viață și natură.",
+          "T5": "🌟 Spiritul comunității",
+          "C5": "Comunitatea din jurul ashramului este profund implicată în activitățile acestuia, participând la ritualuri, voluntariat și susținând inițiativele educaționale și sociale.  Devotamentul și unitatea acestei comunități reflectă învățăturile lui Yogi Ramsuratkumar despre iubire, umilință și serviciu dezinteresat."
         }
       }
     }
@@ -99,7 +99,8 @@
       "TITLE": "Învățătură",
       "DESCRIPTION": "Toate programele organizate de Ashramul din India și Europa sunt oferite gratuit. Ajatananda Ashram este o organizație non-profit și depinde în totalitate de donații pentru a acoperi cheltuielile zilnice. Dacă simți inspirația de a sprijini Ashramul și de a contribui la promovarea activităților sale în domeniul învățăturilor non-duale și al dialogului interreligios, ești binevenit să o faci prin Cutia de Donații din timpul retragerii sau online.",
       "VISIT_ASHRAM": "Vizitează site-ul Yogi Ramsuratkumar Ashram",
-      "LOVE": "Așteptăm cu drag să te întâmpinăm la eveniment!"
+      "LOVE": "Așteptăm cu drag să te întâmpinăm la eveniment!",
+      "VISIT_PHYSICAL_ASHRAM": "Sau, pentru a vizita Ashram-ul din India, <a target=\"_blank\" href=\"https://api.whatsapp.com/send?phone=40728388894\">contactează</a> organizatorii pentru mai multe informații, deoarece organizează excursii periodice in acest scop."
     }
   },
   "LOCATION": {

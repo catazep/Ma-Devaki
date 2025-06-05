@@ -6,9 +6,9 @@ html {
 }
 
 :root {
-  --primary: 	#228B22;
+  --primary: #228b22;
   --secondary: #f0ffe6;
-  --dark-brown: #097969;
+  --dark-brown: #7b8d51;
 }
 
 * {
@@ -89,7 +89,6 @@ h6 {
   display: flex;
   justify-content: center;
   color: white;
-  background-color: var(--dark-brown);
   text-align: center;
   padding: 11rem 0;
   width: 100%;
@@ -103,7 +102,6 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.8;
 }
 
 .hero h1 {
@@ -352,17 +350,7 @@ h6 {
 
   margin-top: 48px;
 
-  span {
-    text-align: center;
-    display: inline-block;
-    // font-family: "Cormorant Garamond", serif;
-    font-family: "Libre Baskerville", serif;
-  }
-
-  a {
-    padding: 0 24px;
-  }
-}
+  
 .website-link {
   color: var(--primary);
   margin-bottom: 1rem;
@@ -370,6 +358,22 @@ h6 {
   // font-family: "Cormorant Garamond", serif;
   font-family: "Libre Baskerville", serif;
   word-break: break-all;
+  padding: 0 24px;
+}
+
+  span {
+    text-align: center;
+    display: inline-block;
+    // font-family: "Cormorant Garamond", serif;
+    font-family: "Libre Baskerville", serif;
+  }
+
+
+  p {
+    font-size: 16px;
+    margin: auto;
+    padding: 0 24px;
+  }
 }
 
 .form-container {
@@ -458,7 +462,7 @@ button {
 
 @media (max-width: 640px) {
   .hero {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 
