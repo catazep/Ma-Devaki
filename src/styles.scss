@@ -350,16 +350,15 @@ h6 {
 
   margin-top: 48px;
 
-  
-.website-link {
-  color: var(--primary);
-  margin-bottom: 1rem;
-  display: inline-block;
-  // font-family: "Cormorant Garamond", serif;
-  font-family: "Libre Baskerville", serif;
-  word-break: break-all;
-  padding: 0 24px;
-}
+  .website-link {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: inline-block;
+    // font-family: "Cormorant Garamond", serif;
+    font-family: "Libre Baskerville", serif;
+    word-break: break-all;
+    padding: 0 24px;
+  }
 
   span {
     text-align: center;
@@ -367,7 +366,6 @@ h6 {
     // font-family: "Cormorant Garamond", serif;
     font-family: "Libre Baskerville", serif;
   }
-
 
   p {
     font-size: 16px;
@@ -512,6 +510,10 @@ button {
 @media (max-width: 520px) {
   .hero {
     padding: 7rem 0;
+  }
+
+  .website-link {
+    font-size: 16px;
   }
 }
 
