@@ -88,20 +88,32 @@ h6 {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
   text-align: center;
-  padding: 3rem 0;
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 0;
 }
 
 .hero-overlay {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url("assets/img/yogiram_intro_vertical.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.hero .container {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
 }
 
 .hero h1 {
@@ -199,7 +211,7 @@ h6 {
 
 .carousel {
   position: relative;
-  margin: 4rem 0;
+  margin: 4rem 1rem 0;
 }
 
 .carousel-container {
@@ -328,6 +340,8 @@ h6 {
   margin: 16px 0;
   font-size: clamp(14px, 1vw, 24px);
   text-align: center;
+  color: var(--secondary);
+  font-weight: bold;
 }
 
 .register h2 {
@@ -391,13 +405,11 @@ h6 {
 .organizer {
   // font-family: "Cormorant Garamond", serif;
   font-family: "Libre Baskerville", serif;
-  color: rgba(255, 255, 255, 0.6);
   font-weight: 900;
 }
 
 .organizer a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Map Section */
@@ -405,19 +417,19 @@ h6 {
   background-color: var(--secondary);
   padding: 2rem 0;
   display: flex;
-}
 
-.map iframe {
-  width: 100%;
-  height: 400px;
-  border: none;
-}
-
-.map .title {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 16px;
+  iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+  .title {
+    display: block;
+    color: var(--primary);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+  }
 }
 
 .quote {
@@ -445,7 +457,6 @@ button {
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-  color: rgba(255, 255, 255, 0.4);
   transition: color 0.2s;
 }
 
@@ -454,27 +465,28 @@ button {
 }
 
 .copyright {
-  color: rgba(255, 255, 255, 0.6);
   font-size: 0.875rem;
   margin-top: 1rem;
 }
 
 @media (max-width: 639px) {
   .hero {
-    min-height: 66vh;
+    padding-bottom: 142%; /* Maintain 16:9 aspect ratio */
+  }
+
+  .hero-overlay {
+    background-size: contain;
   }
 }
 
 @media (min-width: 640px) {
   .hero {
-    aspect-ratio: 21/9;
+    padding-bottom: 42.85%; /* 21:9 aspect ratio */
   }
 
   .hero-overlay {
     background-image: url("assets/img/yogiram_pic_wide.png");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 
