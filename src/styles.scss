@@ -21,9 +21,23 @@ body {
   // font-family: "Poppins", sans-serif;
   font-family: "Libre Baskerville", serif;
   line-height: 1.6;
-  color: #333;
-  background-color: var(--color-pale-pink);
+  color: white;
+  background-color: (var(--secondary));
   // width: fit-content;
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:visited {
+      color: wheat;
+    }
+
+    &:hover {
+      color: wheat;
+    }
+  }
 }
 
 h1,
@@ -70,10 +84,10 @@ h6 {
 }
 
 .nav-link {
-  color: var(--primary);
+  color: var(--primary) !important;
   text-decoration: none;
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -173,6 +187,7 @@ h6 {
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: var(--secondary);
 }
 
 .card ul {
