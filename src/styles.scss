@@ -6,8 +6,8 @@ html {
 }
 
 :root {
-  --primary: #228b22;
-  --secondary: #f0ffe6;
+  --primary: #ffa823;
+  --secondary: #03033f;
   --dark-brown: #7b8d51;
 }
 
@@ -98,7 +98,7 @@ h6 {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background-image: url("assets/img/yogiram_pic_small.png");
+  background-image: url("assets/img/yogiram_intro_vertical.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -270,11 +270,11 @@ h6 {
     background-color: var(--secondary);
   }
 
-  &:not(.background) {
-    .card {
-      background-color: var(--secondary);
-    }
-  }
+  // &:not(.background) {
+  //   .card {
+  //     background-color: var(--secondary);
+  //   }
+  // }
   padding: 1.8rem 0;
 }
 
@@ -461,7 +461,7 @@ button {
 
 @media (max-width: 639px) {
   .hero {
-    min-height: 80vh;
+    min-height: 66vh;
   }
 }
 
