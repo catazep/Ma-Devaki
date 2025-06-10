@@ -104,6 +104,7 @@ footer {
   width: 300px;
   opacity: 0.7;
   background-color: var(--secondary);
+  z-index: 1;
 
   &:hover {
     opacity: 1;
