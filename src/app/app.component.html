@@ -52,14 +52,10 @@
 </div> -->
 
 <section id="home" class="hero">
-  <div class="hero-overlay"></div>
-  <div class="container">
-    <div class="main-page">
-      <a href="#register" class="register-button">{{
-        "TITLE.REGISTER_NOW" | transloco
-      }}</a>
-    </div>
-  </div>
+  <div class="hero-overlay" [style.background-image]="getHeroImageUrl()"></div>
+  <a href="#register" class="register-button">{{
+    "TITLE.REGISTER_NOW" | transloco
+  }}</a>
 </section>
 
 <section id="presentation">
@@ -242,11 +238,7 @@
       {{ "ABOUT.ASHRAM.CONTENT.SCHEDULE.C5" | transloco }}
     </p>
     <div>
-      <img
-        src="assets/img/ashram.png"
-        alt="ashram"
-        class="about-image"
-      />
+      <img src="assets/img/ashram.png" alt="ashram" class="about-image" />
     </div>
     <br />
     <p>
@@ -271,15 +263,11 @@
 
 <section id="program" class="program">
   <div class="container">
-    <h2>{{ "SCHEDULE.TITLE" | transloco }}</h2>
+    <h2 class="title">{{ "SCHEDULE.TITLE" | transloco }}</h2>
     <div class="program-cards">
-      <div class="card">
-        <div class="card-content">
-          {{ "SCHEDULE.DESCRIPTION.LINE_1" | transloco }}
-          <br />
-          {{ "SCHEDULE.DESCRIPTION.LINE_2" | transloco }}
-        </div>
-      </div>
+      {{ "SCHEDULE.DESCRIPTION.LINE_1" | transloco }}
+      <br />
+      {{ "SCHEDULE.DESCRIPTION.LINE_2" | transloco }}
       <div class="card">
         <h3>{{ "SCHEDULE.FRIDAY.TITLE" | transloco }}</h3>
         <ul>
@@ -294,12 +282,10 @@
           <li>{{ "SCHEDULE.SATURDAY.LINE_5" | transloco }}</li>
         </ul>
       </div>
-      <div class="card">
-        <h2>{{ "PRESENTATION.TRANSLATION.TITLE" | transloco }}</h2>
-        <p>
-          {{ "PRESENTATION.TRANSLATION.DESCRIPTION" | transloco }}
-        </p>
-      </div>
+      <h2>{{ "PRESENTATION.TRANSLATION.TITLE" | transloco }}</h2>
+      <p>
+        {{ "PRESENTATION.TRANSLATION.DESCRIPTION" | transloco }}
+      </p>
     </div>
   </div>
 </section>
@@ -335,19 +321,20 @@
       <iframe
         [hidden]="!toggleRegistrationForm"
         #registration_form
-        src="https://form.jotform.com/250458895936475"
-        title="Registration Form"
+        src="https://form.jotform.com/251574103655354"
+        title="Forma de inregistrare"
       >
       </iframe>
       } @case ('en') {
       <iframe
         [hidden]="!toggleRegistrationForm"
         #registration_form
-        src="https://form.jotform.com/250503450416446"
+        src="https://form.jotform.com/251573165832055"
         title="Registration Form"
       >
       </iframe>
-      } @case ('fr') {
+      }
+       <!-- @case ('fr') {
       <iframe
         [hidden]="!toggleRegistrationForm"
         #registration_form
@@ -355,7 +342,8 @@
         title="Registration Form"
       >
       </iframe>
-      } }
+      }  -->
+    }
     </ng-container>
 
     <p class="invitation">

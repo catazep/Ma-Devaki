@@ -113,4 +113,9 @@ export class AppComponent implements AfterViewInit {
       }, 100);
     }
   }
+
+  public getHeroImageUrl(): string {
+    const orientation = this.windowWidth < 640 ? 'vertical' : 'horizontal';
+    return `url(assets/img/madevaki_visit_${orientation}_${this.currentLanguage}.png)`;
+  }
 }
