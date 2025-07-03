@@ -121,15 +121,6 @@ h6 {
   background-repeat: no-repeat;
 }
 
-// .hero .container {
-//   position: absolute;
-//   top: 90%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   z-index: 2;
-//   width: 100%;
-// }
-
 .hero h1 {
   // font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 700;
@@ -180,6 +171,10 @@ h6 {
   margin: 0 auto;
   display: grid;
   gap: 2rem;
+
+  ul {
+    list-style: none;
+  }
 }
 
 .card {
@@ -188,10 +183,6 @@ h6 {
   padding: 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   color: var(--secondary);
-}
-
-.card ul {
-  list-style: none;
 }
 
 .card h3 {
@@ -495,30 +486,7 @@ button {
   }
 }
 
-// @media (min-width: 640px) {
-//   .hero {
-//     padding-bottom: 82.85%; /* 21:9 aspect ratio */
-//   }
-
-//   .hero .container {
-//     top: 55%;
-//   }
-
-//   .hero-overlay {
-//     background-size: cover;
-//   }
-// }
-
 @media (min-width: 1024px) {
-  // .hero {
-  //   padding-bottom: 64%; /* 21:9 aspect ratio */
-  // }
-
-  // .hero-overlay {
-  //   background-size: cover;
-  //   background-position: center;
-  // }
-
   .about-content {
     grid-template-columns: 1fr 1fr;
   }
@@ -530,17 +498,6 @@ button {
   .hero {
     aspect-ratio: 21/9;
   }
-}
-
-@media (min-width: 1440px) {
-  // .hero {
-  //   aspect-ratio: 21/9;
-  // }
-
-  // .hero-overlay {
-  //   background-size: cover;
-  //   background-position: center;
-  // }
 }
 
 @media (max-width: 520px) {

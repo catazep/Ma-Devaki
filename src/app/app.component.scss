@@ -90,6 +90,19 @@ footer {
       text-align: left;
     }
   }
+
+  a {
+    color: var(--secondary);
+    opacity: 0.7;
+
+    &:visited {
+      color: wheat;
+    }
+
+    &:hover {
+      color: wheat;
+    }
+  }
 }
 
 .register-button {
